@@ -73,10 +73,10 @@ Activation Plots
 Similarly, these are the activation plots of the red, blue, green and
 all channel weights.
 
-![R Channel Weights](plots/wr.png)
-![G Channel Weights](plots/wg.png)
-![B Channel Weights](plogs/wb.png)
-![All Channel Weights](plogs/w.png)
+![R Channel Activations](plots/ar.png)
+![G Channel Activations](plots/ag.png)
+![B Channel Activations](plogs/ab.png)
+![All Channel Activations](plogs/a.png)
 
 Note: These plots look tiny because they are 64x64 images. If you want
 to zoom, try opening the image in a new tab and then zooming it.
