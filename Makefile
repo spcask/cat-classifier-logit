@@ -1,5 +1,10 @@
 VENV = cat-classifier
 
+dist:
+	rm -rf plots/*
+	. ./venv && ./plotmodel.py
+	./readme.py
+
 venv: .FORCE
 	python3 -m venv ~/.venv/$(VENV)
 	echo . ~/.venv/$(VENV)/bin/activate > venv

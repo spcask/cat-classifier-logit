@@ -62,20 +62,29 @@ Weight Plots
 Here are the graphical plots of the red, blue and green channel weights.
 The fourth image is a plot of the weights of all the channels.
 
-![R Channel Weights][WR]
-![G Channel Weights][WG]
-![B Channel Weights][WB]
-![All Channel Weights][W]
+![R Channel Weights](plots/wr.png)
+![G Channel Weights](plots/wg.png)
+![B Channel Weights](plogs/wb.png)
+![All Channel Weights](plogs/w.png)
 
-[WR]: plots/wr.png
-[WG]: plots/wg.png
-[WB]: plots/wb.png
-[W]: plots/w.png
+
+Activation Plots
+----------------
+Similarly, these are the activation plots of the red, blue, green and
+all channel weights.
+
+![R Channel Weights](plots/wr.png)
+![G Channel Weights](plots/wg.png)
+![B Channel Weights](plogs/wb.png)
+![All Channel Weights](plogs/w.png)
 
 Note: These plots look tiny because they are 64x64 images. If you want
 to zoom, try opening the image in a new tab and then zooming it.
 
-Here is a brief description of each plot.
+
+Description of Plots
+--------------------
+Here is a brief description of each weight plot.
 
  1. The first plot contains the plot of the weights for the red
     channel. The red area is where the neuron assigns positive weights
@@ -112,6 +121,25 @@ Here is a brief description of each plot.
     the other two channels and still display the negative and positive
     weights of each channel. That is why I am simply plotting all
     (r, g, b) weights normalized to positive real numbers.
+
+Here is a brief description of each activation plot.
+
+ 1. The first plot contains the plot of the activations of the red
+    component in each pixel of the input image. The activation for each
+    pixel being red is computed separately and displayed as a graphical
+    plot. Notice the similarity between the bright red areas in the
+    weight plot and the bright red areas in the activation plot.
+    Similarly, notice the similarity between the cyan areas in the
+    weight plot and the dark areas in the activation plot.
+
+ 2. The second plot contains the plot of the activations of the green
+    component in each pixel of the input image.
+
+ 3. The third plot contains the plot of the activations of the blue
+    component in each pixel of the input image.
+
+ 4. The fourth plot contains the plot of the red, green and blue
+    components of the first three activation plots combined.
 
 
 <!-- BEGIN AUTO -->
