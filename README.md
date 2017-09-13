@@ -74,10 +74,10 @@ The fourth image is a plot of the weights of all the channels.
 ![B Channel Weights][WB]
 ![All Channel Weights][W]
 
-[WR]: (plots/wr.png)
-[WG]: (plots/wg.png)
-[WB]: (plots/wb.png)
-[W]: (plots/w.png)
+[WR]: plots/wr.png
+[WG]: plots/wg.png
+[WB]: plots/wb.png
+[W]: plots/w.png
 
 
 Activation Plots
@@ -90,10 +90,10 @@ all channel weights.
 ![B Channel Activations][AB]
 ![All Channel Activations][A]
 
-[AR]: (plots/wr.png)
-[AG]: (plots/wg.png)
-[AB]: (plots/wb.png)
-[A]: (plots/w.png)
+[AR]: plots/wr.png
+[AG]: plots/wg.png
+[AB]: plots/wb.png
+[A]: plots/w.png
 
 Note: These plots look tiny because they are 64x64 images. If you want
 to zoom, try opening the image in a new tab and then zooming it.
