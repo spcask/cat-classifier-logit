@@ -50,11 +50,18 @@ the top-level directory of this project.
 
         ./plotmodel.py
 
-    This generates four images [`wr.png`][WR], [`wg.png`][WG],
+    This generates four weight plots [`wr.png`][WR], [`wg.png`][WG],
     [`wb.png`][WB] and [`w.png`][W]. These are plots of the weights for
     each channel (R, G and B channels) and an overall plot of all
-    weights, respectively. These plots are explained in a little more
-    detail in the next section.
+    weights, respectively.
+
+    This generates four weight plots [`ar.png`][AR], [`ag.png`][AG],
+    [`ab.png`][AB] and [`a.png`][A]. These are plots of the activations
+    for each channel (R, G and B channels) and an overall plot of all
+    activations, respectively.
+
+    These plots are explained in a little more detail in the next few
+    sections.
 
 
 Weight Plots
@@ -62,10 +69,15 @@ Weight Plots
 Here are the graphical plots of the red, blue and green channel weights.
 The fourth image is a plot of the weights of all the channels.
 
-![R Channel Weights](plots/wr.png)
-![G Channel Weights](plots/wg.png)
-![B Channel Weights](plots/wb.png)
-![All Channel Weights](plots/w.png)
+![R Channel Weights][WR]
+![G Channel Weights][WG]
+![B Channel Weights][WB]
+![All Channel Weights][W]
+
+[WR]: (plots/wr.png)
+[WG]: (plots/wg.png)
+[WB]: (plots/wb.png)
+[W]: (plots/w.png)
 
 
 Activation Plots
@@ -73,10 +85,15 @@ Activation Plots
 Similarly, these are the activation plots of the red, blue, green and
 all channel weights.
 
-![R Channel Activations](plots/ar.png)
-![G Channel Activations](plots/ag.png)
-![B Channel Activations](plots/ab.png)
-![All Channel Activations](plots/a.png)
+![R Channel Activations][AR]
+![G Channel Activations][AG]
+![B Channel Activations][AB]
+![All Channel Activations][A]
+
+[AR]: (plots/wr.png)
+[AG]: (plots/wg.png)
+[AB]: (plots/wb.png)
+[A]: (plots/w.png)
 
 Note: These plots look tiny because they are 64x64 images. If you want
 to zoom, try opening the image in a new tab and then zooming it.
