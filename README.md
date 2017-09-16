@@ -1090,12 +1090,9 @@ to be between 70% and 80% for most tests.
 
 An accuracy of 80% is not great because 1 out of every 5 predictions
 would be false which is not impressive. But it is not bad either
-considering that this model used just one single neuron. A human brain
-contains about 100 billion neurons and a production-grade neural network
-today has at least a thousand neurons and may have upto a million
-neurons.
+considering that this model uses just one single neuron.
 
-We can extend this experiment by adding more neurons in mulitple layers
-and finding ways to visualize the models of multi-layer neural networks
-to gain insight into how a trained model makes decisions which might
-lead us to new insight about the data itself.
+Here is a similar experiment that shows the activation plots of a
+multi-layer neural network: [mycask/cat-classifier-dnn][DNN].
+
+[DNN]: https://github.com/mycask/cat-classifier-dnn
