@@ -90,10 +90,10 @@ all channel weights.
 ![B Channel Activations][AB]
 ![All Channel Activations][A]
 
-[AR]: plots/wr.png
-[AG]: plots/wg.png
-[AB]: plots/wb.png
-[A]: plots/w.png
+[AR]: plots/ar.png
+[AG]: plots/ag.png
+[AB]: plots/ab.png
+[A]: plots/a.png
 
 Note: These plots look tiny because they are 64x64 images. If you want
 to zoom, try opening the image in a new tab and then zooming it.
